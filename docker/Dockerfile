@@ -7,4 +7,4 @@ LABEL org.label-schema.schema-version="1.0" \
     org.label-schema.license="GPLv2" \
     org.label-schema.build-date="20181204"
 
-CMD ["/bin/bash"]
+CMD ["sh", "-c", "while true; do sleep 99999999; done"]
